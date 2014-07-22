@@ -9,7 +9,7 @@ let &t_Co=256
 " Solarized for vim diffin'
 colo brendan
 if &diff
-  colo solarized
+  colorscheme github
 endif
 
 " Two semicolons to get out of insert mode
@@ -47,6 +47,12 @@ autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
 autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
 autocmd InsertLeave * match ExtraWhitespace /\s\+$/
 autocmd BufWinLeave * call clearmatches()
+
+" Run :FixWhitespace to remove end of line white space
+command! -range=% FixWhitespace call <SID>FixWhitespace(<line1>,<line2>)
+
+" Turn on streak mode for vim-sneak
+let g:sneak#streak = 1
 
 " Use The Silver Searcher instead of grep
 if executable("ag")
