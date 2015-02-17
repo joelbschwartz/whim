@@ -24,8 +24,10 @@ map <leader>o :NERDTreeToggle \| :silent NERDTreeMirror<CR>
 
 :set colorcolumn=80
 
+:set nowrap
+
 " this is my home!!!
-cd ~/active_projects
+cd ~/Active
 
 " Turn off arrow keys to force myself to use hjkl
 "noremap  <Up> ""
