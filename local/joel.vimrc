@@ -30,13 +30,13 @@ map <leader>o :NERDTreeToggle \| :silent NERDTreeMirror<CR>
 cd ~/Active
 
 " Turn off arrow keys to force myself to use hjkl
-"noremap  <Up> ""
+noremap  <Up> ""
 "noremap! <Up> <Esc>
-"noremap  <Down> ""
+noremap  <Down> ""
 "noremap! <Down> <Esc>
-"noremap  <Left> ""
+noremap  <Left> ""
 "noremap! <Left> <Esc>
-"noremap  <Right> ""
+noremap  <Right> ""
 "noremap! <Right> <Esc>
 
 au VimEnter * AutoComplPopEnable
@@ -60,3 +60,7 @@ let g:sneak#streak = 1
 if executable("ag")
   set grepprg=ag\ --noheading\ --nogroup\ --nocolor
 endif
+
+" Set SQL syntax highlighting
+let g:sql_type_default = 'mysql'
+

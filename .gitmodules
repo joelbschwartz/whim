@@ -49,3 +49,6 @@
 [submodule "bundle/nerdtree-ag"]
 	path = bundle/nerdtree-ag
 	url = https://github.com/taiansu/nerdtree-ag.git
+[submodule "bundle/dbext"]
+	path = bundle/dbext
+	url = git@github.com:vim-scripts/dbext.vim.git
