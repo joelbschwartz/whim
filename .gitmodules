@@ -1,6 +1,9 @@
 [submodule "nerdtree"]
-	path = bundle/nerdtree
-	url = https://github.com/scrooloose/nerdtree.git
+ 	path = bundle/nerdtree
+ 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/nerdtree-ag"]
+	path = bundle/nerdtree-ag
+	url = https://github.com/taiansu/nerdtree-ag.git
 [submodule "vim-coffee-script"]
 	path = bundle/vim-coffee-script
 	url = https://github.com/kchmck/vim-coffee-script.git
@@ -46,9 +49,9 @@
 [submodule "bundle/ctrlp"]
 	path = bundle/ctrlp
 	url = https://github.com/kien/ctrlp.vim.git
-[submodule "bundle/nerdtree-ag"]
-	path = bundle/nerdtree-ag
-	url = https://github.com/taiansu/nerdtree-ag.git
 [submodule "bundle/dbext"]
 	path = bundle/dbext
 	url = git@github.com:vim-scripts/dbext.vim.git
+[submodule "bundle/vim-glsl"]
+	path = bundle/vim-glsl
+	url = https://github.com/tikhomirov/vim-glsl
